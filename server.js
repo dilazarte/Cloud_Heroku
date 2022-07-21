@@ -21,7 +21,7 @@ const defaultOp = {
 const args = parseArgs(process.argv.slice(2), defaultOp);
 
 const PORT = process.env.PORT || 8080;
-const MODE = process.env.MODE_ENV || 'cluster';
+const MODE = process.env.MODE_ENV || 'fork';
 
 
 
